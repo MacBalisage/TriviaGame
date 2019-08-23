@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+</head>
+<body class="text-center">
+
+		<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+			
+		  <!-- First Page with Start Button -->
+				<main role="main" class="inner cover">
+						<h1 class="cover-heading">Naruto Trivia!</h1>
+						<p class="lead btn btn-lg btn-danger" id="game-start">Start</p>
+						<div class="col-lg-4 col-lg-offset-4 text-center">
+							<p id="countdown">Time Remaining:<span id="timer"></span></p>
+						</div>
+				</main>
+				
+				<div class="trivia-ques text-center">
+					<p class="quest">1. Who was the very first person to mention (not explain) the existence of light and dark chakra to Naruto?</p>
+					<form class="question">
+						<label class="form-check form-check-inline text-mysize">
+						  <input type="radio" name="optradio" class="optradio" value="wrong">Kakashi
+						</label>
+						<label class="form-check form-check-inline text-mysize">
+						  <input type="radio" name="optradio" class="optradio" value="Correct">Yamato   
+						</label>
+						<label class="form-check form-check-inline text-mysize">
+						  <input type="radio" name="optradio" class="optradio" value="wrong">Jiraiya   
+						</label>
+					</form>
+	
+					<p class="quest">2. Who was the first ninja to beat Sasuke with his Sharingan?</p>
+					<form class="question">
+						<label class="form-check form-check-inline text-mysize">
+						  <input type="radio" name="optradio" class="optradio" value="correct"> Haku  
+						</label>
+						<label class="form-check form-check-inline text-mysize">
+						  <input type="radio" name="optradio" class="optradio" value="wrong"> Garra  
+						</label>
+						<label class="form-check form-check-inline text-mysize">
+						  <input type="radio" name="optradio" class="optradio" value="wrong"> Rock Lee  
+						</label>
+					</form>
+	
+					<p class="quest">3. Who was like a father to Naruto?</p>
+					<form class="question">
+						<label class="form-check form-check-inline text-mysize">
+						  <input type="radio" name="optradio" class="optradio" value="wrong"> Kakashi  
+						</label>
+						<label class="form-check form-check-inline text-mysize">
+						  <input type="radio" name="optradio" class="optradio" value="wrong"> Asuma  
+						</label>
+						<label class="form-check form-check-inline text-mysize">
+						  <input type="radio" name="optradio" class="optradio" value="correct"> Iruka
+						</label>
+					</form>
+	
+					<p class="quest">4. Who came up with the name Sannin?</p>
+					<form class="question">
+						<label class="form-check form-check-inline text-mysize">
+						  <input type="radio" name="optradio" class="optradio" value="correct"> Hanzo  
+						</label>
+						<label class="form-check form-check-inline text-mysize">
+						  <input type="radio" name="optradio" class="optradio" value="wrong"> Danzo  
+						</label>
+						<label class="form-check form-check-inline text-mysize">
+						  <input type="radio" name="optradio" class="optradio" value="wrong"> Jiraiya  
+						</label>
+					</form>
+	
+					<p class="quest">5. Who was the first ninja to injure Gaara?</p>
+					<form class="question">
+						<label class="form-check form-check-inline text-mysize">
+						  <input type="radio" name="optradio" class="optradio" value="wrong"> Naruto  
+						</label>
+						<label class="form-check form-check-inline text-mysize">
+						  <input type="radio" name="optradio" class="optradio" value="correct"> Sasuke  
+						</label>
+						<label class="form-check form-check-inline text-mysize">
+						  <input type="radio" name="optradio" class="optradio" value="wrong"> Rock Lee  
+						</label>
+					</form>
+	
+					<p class="quest">6. What was Naruto's first original jutsu?</p>
+					<form class="question">
+						<label class="form-check form-check-inline text-mysize">
+						  <input type="radio" name="optradio" class="optradio" value="correct"> Sexy Jutsu  
+						</label>
+						<label class="form-check form-check-inline text-mysize">
+						  <input type="radio" name="optradio" class="optradio" value="wrong"> Multi-Shadow Clone Jutsu 
+						</label>
+						<label class="form-check form-check-inline text-mysize">
+						  <input type="radio" name="optradio" class="optradio" value="wrong"> Rasengan
+						</label>
+					</form>
+	
+					<p class="quest">7. Who was the first person to love Naruto just the way he is?</p>
+					<form class="question">
+						<label class="form-check form-check-inline text-mysize">
+						  <input type="radio" name="optradio" class="optradio" value="correct"> Hinata  
+						</label>
+						<label class="form-check form-check-inline text-mysize">
+						  <input type="radio" name="optradio" class="optradio" value="wrong"> Sakura 
+						</label>
+						<label class="form-check form-check-inline text-mysize">
+						  <input type="radio" name="optradio" class="optradio" value="wrong"> Ino
+						</label>
+					</form>
+	
+					<p class="quest">8. What is Naruto's dream?</p>
+					<form class="question">
+						<label class="form-check form-check-inline text-mysize">
+						  <input type="radio" name="optradio" class="optradio" value="wrong"> To be a teacher     
+						</label>
+						<label class="form-check form-check-inline text-mysize">
+						  <input type="radio" name="optradio" class="optradio" value="correct"> To be Hokage     
+						</label>
+						<label class="form-check form-check-inline text-mysize">
+						  <input type="radio" name="optradio" class="optradio" value="wrong"> To join the Anbu Black Ops     
+						</label>
+					</form>
+				
+					<div>
+						<p class="lead btn btn-lg btn-danger" id="game-done">Done
+						</p>
+					</div>
+				</div>
+	
+					<div class="results">
+						<p class="lead2" id="summary">All Done!</p> 
+						<p class="lead2" id="correctScore">Correct Answers:</p>
+						<p class="lead2" id="wrongScore"></p>
+						<p class="lead2" id="unanswered"></p>
+					</div>
+				
+		</div>
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="assets/javascript/app.js"></script>
+	
+	
+	
+</body>
+</html>
